@@ -1,4 +1,4 @@
-# FFT-properties
+# FT-properties
 
 ### Reference
 - https://en.wikipedia.org/wiki/Fourier_transform
