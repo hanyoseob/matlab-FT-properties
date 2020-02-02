@@ -41,7 +41,7 @@ suptitle('2D Convolution vs. Multiplication');
 subplot(231);   imagesc(X, wndImg);     colorbar;   axis image off; title([num2str([N, N], '%d x %d') ' Source image']);
 subplot(232);   imagesc(Y);             colorbar;   axis image off; title([num2str([M, M], '%d x %d') ' Kernel image']);
 
-subplot(234);   imagesc(Z, wndImg);     colorbar;   axis image off; title('Spatial 2D convolution');
-subplot(235);   imagesc(Z_, wndImg);    colorbar;   axis image off; title('Fourier multiplication');
+subplot(234);   imagesc(Z, wndImg);     colorbar;   axis image off; title('2D convolution in spatial domain');
+subplot(235);   imagesc(Z_, wndImg);    colorbar;   axis image off; title('Multiplication in Fourier domain');
 subplot(236);   imagesc(Z - Z_);    	colorbar;   axis image off; title('Difference ( <= 1e-14 )');
 

@@ -78,6 +78,5 @@ where, * is convolution operator and $\cdot$ is element-wise multiplication.
         >> demo_fourier_properties_5_2d_convolution_vs_multiplication.m
 
 ### Results
-![alt text](img/conv_theoem_1d.png "FT properties: (4) Convolution theorem for 1D")
-
-![alt text](img/conv_theoem_2d.png "FT properties: (4) Convolution theorem for 2D")
+![alt text](img/conv_theoem_1d.png "FT properties: (4) Convolution theorem for 1D") (a) 1D example
+![alt text](img/conv_theoem_2d.png "FT properties: (4) Convolution theorem for 2D") (b) 2D example

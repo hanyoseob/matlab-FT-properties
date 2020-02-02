@@ -38,6 +38,6 @@ subplot(221);   plot(X);            title([num2str([N, 1], '%d x %d') ' Source l
 subplot(222);   plot(Y);            title([num2str([M, 1], '%d x %d') ' Kernel line']);
 subplot(223);   plot(Z, 'g-');      hold on;
                 plot(Z_, 'r--');    hold off;
-legend('Spatial 1D convolution', 'Fourier multiplication');
-title('Spatial 1D convolution vs. Fourier multiplication');
+legend('1D convolution in spatial domain', 'Multiplication in Fourier domain');
+title('1D convolution in spatial domain vs. Multiplication in Fourier domain');
 subplot(224);   plot(Z - Z_);       title('Difference ( <= 1e-14 )');
